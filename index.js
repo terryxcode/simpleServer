@@ -7,5 +7,6 @@ handle["/"] = handlers.start;
 handle["/start"] = handlers.start;
 handle["/upload"] = handlers.upload;
 handle["/show"] = handlers.show;
+handle["/submit"] = handlers.submit;
 
 server.start(router.route, handle);
